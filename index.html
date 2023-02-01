@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doomslayer</title>
+    <h2 id="greeter">Hello, guest!</h2>
     <style>
         /*A style is a selector, with a lit of declarations in curly bracesa.
         A declaration is a property/value pair that ends with a semicolon */
@@ -29,11 +30,21 @@
             font-style: italic;}
     
     </style>
-</head>
-<body>  
+    <script>
+        function askForName()    {   
+            var userName = prompt("What is your name?");
+            console.log(userName);
+            var greeterBox= document.getElementById("greeter");
+            greeterBox.innerHTML = "Hello," + userName;
+        }
+    
+    </script>
+  </head>
+
+<body onload="askForName()">
     <!-- This is an HTML comment -->
-<h1>My Awesome Doompage</h1>
-<p clsss="blogtext">Hello Im a girl stealing warrior.</p>
-<a id="gamelink" href="GetToSchool4/www/index.html"></a>game here
-<a href="https://www.neopets.com">Cilck here to play neopets</a>
-<body>
+    <h1>My Awesome Doompage</h1>
+    <p clsss="blogtext">Hello Im a girl stealing warrior.</p>
+    <a id="gamelink" href="GetToSchool4/www/index.html"></a>game here
+    <a href="https://www.neopets.com">Cilck here to play neopets</a>
+    <body>
