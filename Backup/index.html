@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,38 +13,46 @@
         body {
             background-color: #222222;
             color: #cccccc;
-        } 
-        /* You can list multiple selectors seperated by commas. */ 
-        h1, 
+        }
+
+        /* You can list multiple selectors seperated by commas. */
+        h1,
         h2,
-         h3,
-          h4,
-           h5{
-             color: #FFFFFF;
-           }
-           /* select an element by its id attribute */
-           #dcorn {
+        h3,
+        h4,
+        h5 {
+            color: #FFFFFF;
+        }
+
+        /* select an element by its id attribute */
+        #dcorn {
             float: right;
-           }
-           /* select elements by thier class */
-           .blogtext{
-            font-style: italic;}
-    
+        }
+
+        /* select elements by thier class */
+        .blogtext {
+            font-style: italic;
+        }
     </style>
     <script>
-        function askForName()    {   
+        function askForName() {
             var userName = prompt("What is your name?");
             console.log(userName);
-            var greeterBox= document.getElementById("greeter");
+            var greeterBox = document.getElementById("greeter");
             greeterBox.innerHTML = "Hello," + userName;
         }
-    
+
     </script>
-  </head>
+</head>
 
 <body></body>
-    <!-- This is an HTML comment -->
-    <h1>My Awesome Doompage</h1>
-    <p class="blogtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta lectus neque, eu lobortis purus viverra ac. Phasellus mattis ante elit, eget consequat purus tristique nec. Aliquam nec faucibus magna. Donec consectetur libero justo, quis vulputate lorem vulputate at. Pellentesque viverra ultrices nisi, in fermentum mauris pharetra non. Duis eget fermentum justo. Duis pellentesque elit ut augue vestibulum, a placerat mi euismod. Donec posuere sodales dolor ac ullamcorper.</p>
- <img id="dcorn"  src="images.jfif" alt="A meme"/>
-    <body>
+<!-- This is an HTML comment -->
+<h1>My Awesome Doompage</h1>
+<p class="blogtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta lectus neque, eu lobortis
+    purus viverra ac. Phasellus mattis ante elit, eget consequat purus tristique nec. Aliquam nec faucibus magna. Donec
+    consectetur libero justo, quis vulputate lorem vulputate at. Pellentesque viverra ultrices nisi, in fermentum mauris
+    pharetra non. Duis eget fermentum justo. Duis pellentesque elit ut augue vestibulum, a placerat mi euismod. Donec
+    posuere sodales dolor ac ullamcorper.</p>
+<img id="dcorn" src="images.jfif" alt="A meme" />
+
+<body>
