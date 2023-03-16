@@ -10,6 +10,7 @@ null,
 {"id":8,"expanded":true,"name":"Boulderpass dungen lvl1","order":5,"parentId":4,"scrollX":2126.6666666666665,"scrollY":758.6666666666666},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"id":9,"expanded":true,"name":"Town pass","order":9,"parentId":6,"scrollX":1093.3333333333333,"scrollY":788},
 {"id":10,"expanded":true,"name":"Weapon Shop","order":11,"parentId":11,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
 {"id":11,"expanded":true,"name":"Inn 1F","order":10,"parentId":9,"scrollX":712,"scrollY":406.6666666666667},
@@ -18,6 +19,11 @@ null,
 {"id":10,"expanded":true,"name":"Weapon Shop","order":11,"parentId":11,"scrollX":1404,"scrollY":790.2857142857142},
 {"id":11,"expanded":true,"name":"Inn 1F","order":10,"parentId":9,"scrollX":1404,"scrollY":790.2857142857142},
 >>>>>>> 344ea3ee19562a59337ab6f7cad847109518eb87
+=======
+{"id":9,"expanded":true,"name":"Town pass","order":9,"parentId":6,"scrollX":1104,"scrollY":798.6666666666666},
+{"id":10,"expanded":true,"name":"Weapon Shop","order":11,"parentId":11,"scrollX":1402.2857142857142,"scrollY":782.5714285714286},
+{"id":11,"expanded":true,"name":"Inn 1F","order":10,"parentId":9,"scrollX":712,"scrollY":553.3333333333334},
+>>>>>>> parent of 6c5a131 (Updates)
 =======
 {"id":9,"expanded":true,"name":"Town pass","order":9,"parentId":6,"scrollX":1104,"scrollY":798.6666666666666},
 {"id":10,"expanded":true,"name":"Weapon Shop","order":11,"parentId":11,"scrollX":1402.2857142857142,"scrollY":782.5714285714286},
